@@ -1,6 +1,6 @@
 # vue系统模板
 
-## 命令行
+## 命令行
 ````
 yarn serve   //运行
 yarn build   //产出
