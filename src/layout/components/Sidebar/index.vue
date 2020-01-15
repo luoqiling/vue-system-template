@@ -12,7 +12,6 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import variables from '@/styles/variables.scss'
 import menuItem from './menuItem'
 
 export default {
@@ -24,9 +23,6 @@ export default {
     ...mapGetters([
       'routes'
     ]),
-    variables() {
-      return variables
-    },
     activeMenu() {
       const route = this.$route
       const { meta, path } = route
