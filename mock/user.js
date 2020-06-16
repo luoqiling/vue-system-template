@@ -29,7 +29,7 @@ module.exports = [
         success: true
       } : {
         code: 60204,
-        message: 'Account and password are incorrect.'
+        msg: 'Account and password are incorrect.'
       })
     }
   },
